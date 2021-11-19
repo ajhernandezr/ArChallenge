@@ -1,0 +1,8 @@
+{
+  "dashboardProject": "QA Challenge Alberto",
+  "countriesSupplierList":["Belgium","Greece","Netherlands","Poland","Portugal","Romania","Serbia","Spain","UK","Ukraine"],
+  "NumberOfSuppliers": 2,
+  "LimitSpend": 10,
+  "FilterOption": "For each",
+  "Supplier": "Cargill"
+}

@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://dev.archlet.io",
+    "env": {
+      "apiUrl": "https://dev.archlet.io/api/v1",
+      "username": "javierh867@gmail.com",
+      "password": "Qualityspecialist3.",
+      "dashboardProject": "QA Challenge Alberto"
+    },
+    "chromeWebSecurity": false,
+    "video": false
+  }
+  
