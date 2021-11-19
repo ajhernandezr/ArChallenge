@@ -22,6 +22,7 @@ pipeline {
         }
         stage('e2e Tests') {
             steps {
+                sh 'yarn'
                 sh 'npm run cy:runTest'
             }
         }

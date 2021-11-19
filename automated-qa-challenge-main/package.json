@@ -10,7 +10,7 @@
       "report:merge": "mochawesome-merge  cypress/results/*/*.json -o cypress/report/output.json",
       "report:generate": "marge cypress/report/output.json --reportDir ./ --inline",
       "cy:Postreports": "npm run report:merge && npm run report:generate",
-      "cy:runTest": "npm run delete:reports ; cypress run --headless --spec 'cypress/integration/Tests/*.js'"
+      "cy:runTest": "npm run delete:reports ; $(npm bin)/cypress run --headless --spec 'cypress/integration/Tests/*.js'"
     },
     "devDependencies": {
       "cypress": "^8.4.0",
