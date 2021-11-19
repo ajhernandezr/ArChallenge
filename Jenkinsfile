@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Dependencies') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/ajhernandezr/Cypress2.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/ajhernandezr/ArChallenge.git'
             }
         }
         stage('Build') {
