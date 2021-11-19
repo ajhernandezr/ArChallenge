@@ -21,8 +21,10 @@ pipeline {
         }
         stage('e2e Tests') {
             steps {
-                sh 'yarn'
-                sh 'yarn cypress run'
+            dir ('automated-qa-challenge-main') {
+                 sh 'yarn'
+                 sh 'yarn cypress run'
+            }
             }
         }
         stage('Deploy') {
